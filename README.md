@@ -32,7 +32,9 @@
 
 > * git config - -global color.ui “auto”       //터미널에 표시되는 메시지에 칼라를 표시해줌
 
+
 > **### 사용 문법**
+
 version
 * git --version  : 현재 git의 버전을 확인합니다.
 
