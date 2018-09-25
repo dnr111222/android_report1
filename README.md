@@ -4,7 +4,7 @@
 
 
 ## github 명령어
-> ### 설정과 초기화.
+> ### **설정과 초기화.**
 ---
 
 
@@ -24,14 +24,18 @@
 
 > * git config - -global - -list
 
-> 4. 저장소별 설정 정보 조회
+4. 저장소별 설정 정보 조회
 
-* git config - -list
+> * git config - -list
 
-> 5. Git의 출력결과 색상 활성화하기
+5. Git의 출력결과 색상 활성화하기
 
 > * git config - -global color.ui “auto”       //터미널에 표시되는 메시지에 칼라를 표시해줌
 
-> ### 사용 문법
+> **### 사용 문법**
 version
 * git --version  : 현재 git의 버전을 확인합니다.
+
+add
+* git add [파일] : stage area에 파일을 추가하여 commit 할 수 있도록 한다.
+ //작업내용을 반영하는 작업
