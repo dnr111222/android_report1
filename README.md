@@ -80,9 +80,41 @@
   
 **checkout**
 * git checkout [브랜치] : 해당 브랜치로 이동한다.                                 //해당 branch 를 활성화 .
-* git checkout -b [브랜치] : 브랜치가 없으면 브랜치를 생성하고 이동한다.   // branch 생성. 
+* git checkout -b [브랜치] : 브랜치가 없으면 브랜치를 생성하고 이동한다.           // branch 생성. 
 
 **merge**
-* git merge [브랜치] : 현재 브랜치에서 입력한 브랜치와 합친다.
+* git merge [브랜치] : 현재 브랜치에서 입력한 브랜치와 합친다.<br>
 //merge 시에 충돌이 발생하면 : "fix conflicts and then commit the result" 라는 문구가 나옴. 
 해당 파일을 열면 >>>>>> 이나 ====== 또는 <<<<<< 등으로 문제 부분이 나옴. 적절히 수정 후 다시 add 와 commit 을 진행 함. 
+
+**reset**
+* git reset [커밋] [파일] : stage area에 있는 파일들을 모두 특정 커밋으로 되돌린다.
+* git reset --soft 커밋 : 수정사항을 유지하고 특정 커밋으로 되돌린다.
+* git reset --hard 커밋 : 수정사항을 무시하고 특정 커밋으로 되돌린다.
+//이전 단계로 되돌리는 방법. 로그를 확인해서 commit 된 상태의 키값을 확인 한다.
+
+**rog**
+* git rog : master 에 변경된 내용이 log 됨. 
+* git rog --graph 옵션 : 시각적으로 확인. 
+* git log -20 -p   :  6개월 동안의 커밋 로그 보기
+
+**status **
+*  git status : 변경되고 commit 되지 않은 파일 목록을 보여 줌. 
+
+**init**
+* git init :  git 초기화 인데 git clone 을 하게 되면 자동 수행 됨
+
+**commit**
+* git commit -m "커밋메시지" : 스테이징 영역에 올라가 있는 파일들을 커밋합니다 특정파일만 커밋하려면 마지막에 파일명을 추가해주면 됩니다.
+
+**rebase**
+* git rebase [브랜치명] : 브랜치명의 변경사항을 현재 브랜치에 적용합니다.
+
+**blame**
+* git blame [파일명] : 갈 줄 앞에 커밋명과 커밋한 사람등의 정보를 볼 수 있습니다
+* git blame -L [숫자],[숫자] [파일명] : 범위를 지정해서 볼 수 있다.
+
+**fetch**
+* git fetch : 원격저장소의 변경사항 가져와서 원격브랜치를 갱신합니다.
+
+---
