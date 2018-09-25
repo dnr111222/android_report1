@@ -163,6 +163,17 @@ Markdown은 텍스트 기반의 마크업언어로 2004년 존그루버에 의�
 #####This is a H5<br>
 ######This is a H6<br>
 
+# This is a H1
+## This is a H2
+### This is a H3
+#### This is a H4
+##### This is a H5
+###### This is a H6
+
 * 주석 <br>
 ">" 누른후 뛰어쓰기
 > 주석에 주석달기
+
+* 강조<br>
+*이텔릭 체는* 양쪽에 (별표)하나 사이에 감싸기
+**두껍게는** 양쪽에 (별표)두개 사이에 감싸기
