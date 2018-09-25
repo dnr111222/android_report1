@@ -62,3 +62,7 @@
 * git stash apply stash이름(ex.stash@{0}) : 스택에 저장된 stash중 이름이 같은 stash를 적용한다.
 * git stash apply –index : Stage 상태로 스택에 저장된 stash를 Stage 상태까지 복원한다.
 
+**tag**
++ git tag : 만들어진 태그 목록을 보여준다.
++ git tag [태그] : 태그를 만든다.
++ git tag -l ‘v1.0′ : 1.0버전의 태그들만 검색하여 보여준다.
