@@ -66,3 +66,23 @@
 + git tag : 만들어진 태그 목록을 보여준다.
 + git tag [태그] : 태그를 만든다.
 + git tag -l ‘v1.0′ : 1.0버전의 태그들만 검색하여 보여준다.
+
+**diff**
+* git diff : 파일 변경사항들을 보여준다.
+* git diff [파일] : 해당 파일의 변경사항을 보여준다.
+
+**branch**
+* git branch : 브랜치 목록을 보여준다.
+* git branch [브랜치] : 브랜치를 생성한다.
+* git branch -d [브랜치명] : 브렌치를 삭제한다.
+//로컬의 branch 목록을 표시. 초기에는 *master 만 표기됨.
+  * 은 현재 활성화 된 branch. 
+  
+**checkout**
+* git checkout [브랜치] : 해당 브랜치로 이동한다.                                 //해당 branch 를 활성화 .
+* git checkout -b [브랜치] : 브랜치가 없으면 브랜치를 생성하고 이동한다.   // branch 생성. 
+
+**merge**
+* git merge [브랜치] : 현재 브랜치에서 입력한 브랜치와 합친다.
+//merge 시에 충돌이 발생하면 : "fix conflicts and then commit the result" 라는 문구가 나옴. 
+해당 파일을 열면 >>>>>> 이나 ====== 또는 <<<<<< 등으로 문제 부분이 나옴. 적절히 수정 후 다시 add 와 commit 을 진행 함. 
