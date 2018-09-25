@@ -4,7 +4,7 @@
 
 
 ## github 명령어
-> ### **설정과 초기화.**
+> + ## **설정과 초기화.**
 ---
 
 
@@ -33,7 +33,7 @@
 > * git config - -global color.ui “auto”       //터미널에 표시되는 메시지에 칼라를 표시해줌
 
 
-> ### **사용 문법**
+> + ## **사용 문법**
 
 version
 * git --version  : 현재 git의 버전을 확인합니다.
@@ -41,3 +41,9 @@ version
 add
 * git add [파일] : stage area에 파일을 추가하여 commit 할 수 있도록 한다.
  //작업내용을 반영하는 작업
+ 
+commit
+* git commit -m”mention” : stage area에 있는 파일들을 commit 한다.
+* git commit -a -m”mention” : 이미 추가된 파일이 수정 중인 상황에서 stage area에 올리지 않아도 stage area에 올리고 바로 commit 한다.
+//변경 내용 or 신규 추가 파일이 master 에 추가 됨.
+
