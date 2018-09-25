@@ -3,8 +3,8 @@
 =================
 
 
-## 1. github 명령어
-> -설정과 초기화.
+## github 명령어
+> ### 설정과 초기화.
 ---
 
 
@@ -18,16 +18,20 @@
 
 > * git config user.name “Your name”
 
-* git config user.email “Your email address”
+> * git config user.email “Your email address”
 
 3. 전역 설정 정보 조회
 
-* git config - -global - -list
+> * git config - -global - -list
 
-4. 저장소별 설정 정보 조회
+> 4. 저장소별 설정 정보 조회
 
 * git config - -list
 
-5. Git의 출력결과 색상 활성화하기
+> 5. Git의 출력결과 색상 활성화하기
 
-* git config - -global color.ui “auto”       //터미널에 표시되는 메시지에 칼라를 표시해줌
+> * git config - -global color.ui “auto”       //터미널에 표시되는 메시지에 칼라를 표시해줌
+
+> ### 사용 문법
+version
+* git --version  : 현재 git의 버전을 확인합니다.
